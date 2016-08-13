@@ -3,5 +3,7 @@ h1{
 }
 
 img{
-	text-align: center;
+	display: block;
+	margin: auto;
+	width: 40%; 
 }
