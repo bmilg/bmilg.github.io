@@ -1,3 +1,8 @@
+body{
+
+	background-color: 0010B2
+}
+
 h1{
 	font-family: "comic sans", Arial;
 }
@@ -9,9 +14,13 @@ img{
 }
 
 h1, #mainpoint{
+
 background-color: #b20000
 }
 
+#mainpoint{
+	font-style: italic;
+}
 ul{
 	font-weight: bold;
 }
