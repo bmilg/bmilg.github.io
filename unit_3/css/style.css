@@ -14,13 +14,20 @@ img{
 }
 
 h1, #mainpoint{
-
 background-color: #b20000
 }
 
 #mainpoint{
 	font-style: italic;
 }
+
+#more{
+	text-decoration: underline;
+
+}
+
 ul{
 	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
 }
