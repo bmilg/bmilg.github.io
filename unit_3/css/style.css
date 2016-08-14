@@ -33,5 +33,6 @@ background-color: #b20000
 ul{
 	font-weight: bold;
 	text-align: center;
+	list-style-type: none;
 	text-transform: capitalize;
 }
