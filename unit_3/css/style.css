@@ -1,14 +1,17 @@
 body{
-
-	background-color: #0010b2
+	margin: 0;
+	background-color: #364652;
 }
 
 .sub{
-	color: #b28e09
+	color: #cdcdcd;
 }
 
 h1{
 	font-family: "comic sans", Arial;
+}
+
+nav a {margin-right: 10px
 }
 
 img{
@@ -17,8 +20,8 @@ img{
 
 }
 
-h1, #mainpoint{
-background-color: #b20000
+header{
+background-color: #280000;
 }
 
 #mainpoint{
@@ -33,6 +36,7 @@ background-color: #b20000
 ul{
 	font-weight: bold;
 	text-align: center;
-	list-style-type: none;
 	text-transform: capitalize;
+}
+footer{color: #cdcdcd;
 }
