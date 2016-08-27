@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond';
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+body{
+	margin: 0;
+	background-color: #364652;
+	font-size: 18px;
+	font-family: 'EB Garamond', serif;
+	margin: 1.5em;
+}
+
+header{
+background-color: #ffed74;
+}
+
+nav {
+	background-color: #e8c66a;
+	border: 1px black solid;
+    padding: 20px;
+    margin-right: 10px;
+	font-size: 20px;
+	border: white;
+}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+	img{
+	display: block;
+	margin: 0 auto;
+	width: 250px}
+
+	ul{
+		color: #cdcdcd;
+	}
+
+	p{color:#cdcdcd;}
+
+article{display: inline;
+		margin: 0 auto;
+		width: 300px
+}
+
+
+#mainpoint{
+	font-style: italic;
+	font-family: 'Fjalla One', sans-serif;
+	color: #374a67}
+
+	#more{
+	text-decoration: underline;
+}
+
+ul{
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.1em
+}
+
+footer{color: #cdcdcd;
+}
+
+.figure{
+	float: right;
+}
+
+.art img {
+	display: inline-block;
+	padding-right: 50px;
+	width: 300px;
+}
+
+.class ul{float: right;}
+
+aside{
+	background-color: #ffc675;
+}
+
+article{
+	background-color: #e89c6c;
+}
+
+footer{
+	background-color: #ff957e; 
+}
+
+div{
+	background-color: #ffe2b8;
+}
+/*.wrapper{
+	width: 100%;
+}
+
+aside {
+	width: 38%;
+	display: inline-block;
+}
+
+.blurb {
+	width: 60%;
+}*/
