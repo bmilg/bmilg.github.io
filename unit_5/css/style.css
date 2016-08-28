@@ -11,6 +11,8 @@ body{
 
 header{
 background-color: #ffed74;
+border: 1px black solid;
+padding: 20px;
 }
 
 nav {
@@ -38,10 +40,6 @@ h1{
 
 	p{color:#cdcdcd;}
 
-article{display: inline;
-		margin: 0 auto;
-		width: 300px
-}
 
 
 #mainpoint{
@@ -61,8 +59,6 @@ ul{
 	font-size: 1.1em
 }
 
-footer{color: #cdcdcd;
-}
 
 .figure{
 	float: right;
@@ -74,22 +70,35 @@ footer{color: #cdcdcd;
 	width: 300px;
 }
 
-.class ul{float: right;}
-
-aside{
-	background-color: #ffc675;
+.class ul{
+	float: right;
+    border: 1px black solid;
+    padding: 20px;
 }
 
 article{
 	background-color: #e89c6c;
+	border: 1px black solid;
+    padding: 20px;
 }
+
+aside{
+	background-color: #ffc675;
+	border: 1px black solid;
+    padding: 20px;
+}
+
 
 footer{
 	background-color: #ff957e; 
+	border: 1px black solid;
+    padding: 20px;
 }
 
 div{
 	background-color: #ffe2b8;
+	border: 1px black solid;
+    padding: 20px;
 }
 /*.wrapper{
 	width: 100%;
@@ -102,4 +111,11 @@ aside {
 
 .blurb {
 	width: 60%;
-}*/
+}
+
+article{display: inline;
+		margin: 0 auto;
+		width: 300px
+		border: 1px black solid;
+padding: 20px;
+}
