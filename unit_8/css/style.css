@@ -1,0 +1,209 @@
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond';
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+	background-color: #364652;
+	font-size: 18px;
+	font-family: 'EB Garamond', serif;
+	margin: 1.5em;
+}
+
+header{
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+nav {
+	background-color: #e8c66a;
+	font-family: 'EB Garamond', serif;
+	border: 1px black solid;
+    padding: 1.2em;
+    /*! margin-right: .55em; */
+	font-size: 1.2em;
+	border: white;
+	
+}
+nav a {
+	color:#fff;
+	padding:.5em 1em;
+	text-decoration:none;
+}
+nav div {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+#mobile {
+	display: none;
+}
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul{
+	color: #cdcdcd;
+	}
+
+p{
+	color:#cdcdcd;
+}
+
+
+#mainpoint{
+	float: left;
+	font-style: italic;
+	font-family: 'Fjalla One', sans-serif;
+	color: #374a67;
+}
+
+	#more{
+	text-decoration: underline;
+}
+
+ul{
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.1em
+}
+
+
+.figure{
+	float: right;
+}
+
+.art img {
+	display: inline-block;
+	width: 20%;
+	padding: 1em;
+	float: left;
+}
+
+.left ul{
+	background-color: violet;
+    border: 1px black solid;
+    padding: 1.2em;
+    width: 30%;
+
+}
+
+/*.left ul{
+	float: right;
+    border: 1px black solid;
+    padding: 20px;
+}*/
+
+article{
+	background-color: #e89c6c;
+	border: 1px black solid;
+    padding: 1.2em;
+}
+
+aside{
+	border: 1px black solid;
+    padding: 1.2em;
+}
+
+
+footer{
+	background-color: #ff957e; 
+	border: 1px black solid;
+    padding: 1.2em;
+}
+
+div{
+	background-color: #ffe2b8;
+	border: 1px black solid;
+    padding: 1.2em;
+}
+
+.two_column {
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 1.2em;
+}
+@media only screen and (max-width: 815px) {
+	.art img{
+		width: 50%;
+		float: left;
+	}
+	ul{float: none;}
+
+	.right, .left ul{
+		float: none;
+		width:100%;
+	}
+	nav{
+		width: auto;
+		padding: .25em 0;
+	}
+	
+}
+
+@media only screen and (max-width: 447px){
+	.art img{
+		width: 75%;
+	}
+
+	ul{ width: auto;
+
+	}
+}
+
+@media only screen and (max-width: 408px){
+	.art img{
+		width: 75%;
+	}
+	nav{
+		display: block;
+		text-align: center;
+		margin: 0 1em 1em;
+		width: auto;
+	}
+}
+
+/*.wrapper{
+	width: 100%;
+}
+
+aside {
+	width: 38%;
+	display: inline-block;
+}
+
+.blurb {
+	width: 60%;
+}
+
+article{display: inline;
+		margin: 0 auto;
+		width: 300px
+		border: 1px black solid;
+padding: 20px;
+}
+
+border: 1px black solid;
+    padding: 20px;
+    margin-right: 10px;
+	font-size: 20px;
+	border: white;
+}/*
