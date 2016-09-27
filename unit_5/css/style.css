@@ -136,7 +136,7 @@ div{
     padding: 20px;
 }
 
-#two_column {
+.two_column {
 	background-color: #ffb7cf;
 	border: 1px black solid;
 	padding: 20px;
